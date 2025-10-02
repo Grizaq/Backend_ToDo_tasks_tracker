@@ -6,7 +6,7 @@ dotenv.config();
 
 export const config = {
   appName: process.env.APP_NAME || 'Todo App',
-  port: process.env.PORT || 3000,
+  port: Number(process.env.PORT) || 3000,
   nodeEnv: process.env.NODE_ENV || 'development',
   
   // Database config
