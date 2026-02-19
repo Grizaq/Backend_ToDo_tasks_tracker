@@ -4,7 +4,7 @@ A production-ready RESTful API built with **Node.js**, **TypeScript**, and **Exp
 
 ---
 
-## ✨ Features
+## Features
 
 - **Authentication & Authorization** — JWT access tokens + secure refresh token rotation with 30-day sessions
 - **Email Verification** — OTP-based email verification on registration (via Nodemailer)
@@ -18,7 +18,7 @@ A production-ready RESTful API built with **Node.js**, **TypeScript**, and **Exp
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -32,7 +32,7 @@ A production-ready RESTful API built with **Node.js**, **TypeScript**, and **Exp
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -98,7 +98,7 @@ npm start
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 ### Auth — `/api/auth`
 
@@ -142,7 +142,7 @@ npm start
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 src/
@@ -168,7 +168,7 @@ The project follows a strict **dependency inversion** approach — services depe
 
 ---
 
-## 🔐 Auth Flow
+## Auth Flow
 
 1. **Register** → OTP sent to email
 2. **Verify Email** → Account activated
@@ -178,7 +178,7 @@ The project follows a strict **dependency inversion** approach — services depe
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ```bash
 npm test                        # All tests
@@ -189,7 +189,7 @@ npm run test:integration        # Integration tests only
 
 ---
 
-## 📋 Todo Data Model
+## Todo Data Model
 
 ```json
 {
